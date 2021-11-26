@@ -26,11 +26,7 @@ import java.util.function.BiPredicate;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * @author :owen
- * @date :2021/7/28 9:51
- * @Description : 时间量
- */
+
 public class DurationTime extends DimToken implements Dimension, RuleParser {
     private String loop;
     private String direction;
